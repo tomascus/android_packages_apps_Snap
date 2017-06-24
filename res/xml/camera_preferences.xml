@@ -436,7 +436,7 @@
             camera:defaultValue="@string/pref_sony_ae_mode_default"
             camera:title="@string/pref_sony_ae_mode_entry_title"
             camera:entries="@array/pref_sony_ae_mode_entries"
-            camera:singleIcon="@drawable/ic_settings_bright_screen"
+            camera:singleIcon="@drawable/ic_timer"
             camera:entryValues="@array/pref_sony_sony_ae_mode_entryvalues" />
 
     <IconListPreference
@@ -444,7 +444,7 @@
             camera:defaultValue="@string/pref_sony_shutter_speed_entry_default"
             camera:title="@string/pref_sony_shutter_speed_title"
             camera:entries="@array/pref_sony_shutter_speed_entries"
-            camera:singleIcon="@drawable/ic_settings_bright_screen"
+            camera:singleIcon="@drawable/ic_settings_timelapse"
             camera:entryValues="@array/pref_sony_shutter_speed_entryvalues" />
 
     <IconListPreference

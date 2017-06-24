@@ -225,13 +225,13 @@
             camera:defaultValue="@string/pref_sony_vs_entry_default"
             camera:title="@string/pref_sony_vs_title"
             camera:entries="@array/pref_sony_vs_entries"
-            camera:singleIcon="@drawable/ic_settings_bright_screen"
+            camera:singleIcon="@drawable/ic_settings_stabilization"
             camera:entryValues="@array/pref_sony_vs_entriesvalues" />
     <IconListPreference
             camera:key="pref_sony_video_hdr"
             camera:defaultValue="@string/pref_sony_hdr_video_default"
             camera:title="@string/pref_sony_hdr_video_entry_title"
             camera:entries="@array/pref_sony_hdr_video_entries"
-            camera:singleIcon="@drawable/ic_settings_bright_screen"
+            camera:singleIcon="@drawable/ic_settings_hdr_auto"
             camera:entryValues="@array/pref_sony_hdr_video_entryvalues" />
 </PreferenceGroup>
