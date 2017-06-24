@@ -176,4 +176,18 @@
          <item>12</item>
      </string-array>
 
+     <string-array name="pref_sony_metering_mode_entries" translatable="false">
+          <item>@string/pref_sony_metering_mode_entry_face</item>
+          <item>@string/pref_sony_metering_mode_entry_center_weighted</item>
+          <item>@string/pref_sony_metering_mode_entry_spot</item>
+          <item>@string/pref_sony_metering_mode_entry_multi</item>
+     </string-array>
+
+     <string-array name="pref_sony_metering_mode_entryvalues" translatable="false">
+          <item>face</item>
+          <item>center-weighted</item>
+          <item>spot</item>
+          <item>multi</item>
+     </string-array>
+
 </resources>

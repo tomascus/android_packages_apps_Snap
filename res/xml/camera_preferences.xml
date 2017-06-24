@@ -446,4 +446,12 @@
             camera:entries="@array/pref_sony_shutter_speed_entries"
             camera:singleIcon="@drawable/ic_settings_bright_screen"
             camera:entryValues="@array/pref_sony_shutter_speed_entryvalues" />
+
+    <IconListPreference
+            camera:key="pref_sony_metering_mode"
+            camera:defaultValue="@string/pref_sony_metering_mode_entry_default" 
+            camera:title="@string/pref_sony_metering_mode_entry_title"
+            camera:entries="@array/pref_sony_metering_mode_entries"
+            camera:singleIcon="@drawable/ic_settings_bright_screen"
+            camera:entryValues="@array/pref_sony_metering_mode_entryvalues" />
 </PreferenceGroup>

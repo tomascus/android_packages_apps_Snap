@@ -3289,6 +3289,12 @@ public class PhotoModule extends BaseModule<PhotoUI> implements
 	int sony_shutterspeed = Integer.parseInt(sony_shutterspeed_s);
 	mParameters.set("sony-shutter-speed", sony_shutterspeed);
 
+	// Set Sony metering mode
+	String sony_metering = mPreferences.getString(
+                 CameraSettings.KEY_SONY_METERING_MODE,
+                 mActivity.getString(R.string.pref_sony_metering_mode_entry_default));
+ 	mParameters.set("sony-metering-mode", sony_metering);
+
         //Set Saturation
         String saturationStr = getSaturationSafe();
         if (saturationStr != null) {
