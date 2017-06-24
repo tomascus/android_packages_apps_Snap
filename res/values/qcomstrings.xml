@@ -972,5 +972,9 @@
     <string name="pref_sony_vs_entry_on" translatable="false">Steady Shot</string>
     <string name="pref_sony_vs_entry_ia" translatable="false">Intelligent Active</string>
     <string name="pref_sony_vs_entry_default" translatable="false">off</string>
-</resources>
 
+    <string name="pref_sony_hdr_video_entry_title" translatable="false">Sony HDR Video</string>
+    <string name="pref_sony_hdr_video_entry_off">Off</string>
+    <string name="pref_sony_hdr_video_entry_on">On</string>
+    <string name="pref_sony_hdr_video_default">off</string>
+</resources>

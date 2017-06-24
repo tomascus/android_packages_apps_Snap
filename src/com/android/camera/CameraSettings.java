@@ -267,6 +267,7 @@ public class CameraSettings {
     // Sony stuff
     public static final String KEY_SONY_VS                 = "pref_sony_vs";
     public static final String KEY_SONY_AE_MODE            = "pref_sony_ae_mode";
+    public static final String KEY_SONY_VIDEO_HDR          = "pref_sony_video_hdr";
 
     public static final String KEY_REFOCUS_PROMPT = "refocus-prompt";
 
@@ -978,6 +979,7 @@ public class CameraSettings {
         ListPreference videoQuality = group.findPreference(KEY_VIDEO_QUALITY);
         ListPreference sony_vs_level = group.findPreference(KEY_SONY_VS);
         ListPreference sony_ae_mode = group.findPreference(KEY_SONY_AE_MODE);
+        ListPreference sony_hdr_video = group.findPreference(KEY_SONY_VIDEO_HDR);
         ListPreference timeLapseInterval = group.findPreference(KEY_VIDEO_TIME_LAPSE_FRAME_INTERVAL);
         ListPreference pictureSize = group.findPreference(KEY_PICTURE_SIZE);
         ListPreference whiteBalance =  group.findPreference(KEY_WHITE_BALANCE);
