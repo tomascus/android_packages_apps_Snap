@@ -119,4 +119,18 @@
         <item>on-steady-shot</item>
         <item>on-intelligent-active</item>
     </string-array>
+
+     <string-array name="pref_sony_ae_mode_entries" translatable="false">
+         <item>@string/pref_sony_ae_mode_entry_auto</item>
+         <item>@string/pref_sony_ae_mode_entry_iso</item>
+         <item>@string/pref_sony_ae_mode_entry_shutter</item>
+         <item>@string/pref_sony_ae_mode_entry_manual</item>
+     </string-array>
+
+     <string-array name="pref_sony_sony_ae_mode_entryvalues" translatable="false">
+         <item>auto</item>
+         <item>iso-prio</item>
+         <item>shutter-prio</item>
+         <item>manual</item>
+     </string-array>
 </resources>
