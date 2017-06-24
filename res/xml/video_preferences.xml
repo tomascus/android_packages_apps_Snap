@@ -219,4 +219,12 @@
             camera:entries="@array/pref_switch_entries"
             camera:singleIcon="@drawable/ic_settings_bright_screen"
             camera:entryValues="@array/pref_switch_entryvalues" />
+    <!-- Sony stuff -->
+    <IconListPreference
+            camera:key="pref_sony_vs"
+            camera:defaultValue="@string/pref_sony_vs_entry_default"
+            camera:title="@string/pref_sony_vs_title"
+            camera:entries="@array/pref_sony_vs_entries"
+            camera:singleIcon="@drawable/ic_settings_bright_screen"
+            camera:entryValues="@array/pref_sony_vs_entriesvalues" />
 </PreferenceGroup>

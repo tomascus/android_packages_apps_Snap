@@ -106,4 +106,17 @@
         <item>auto</item>
         <item>continuous-video</item>
     </string-array>
+
+    <!-- Sony stuff -->
+    <string-array name="pref_sony_vs_entries" translatable="false">
+        <item>@string/pref_sony_vs_entry_off</item>
+        <item>@string/pref_sony_vs_entry_on</item>         
+	<item>@string/pref_sony_vs_entry_ia</item>
+    </string-array>
+ 
+    <string-array name="pref_sony_vs_entriesvalues" translatable="false">
+	<item>off</item>
+        <item>on-steady-shot</item>
+        <item>on-intelligent-active</item>
+    </string-array>
 </resources>

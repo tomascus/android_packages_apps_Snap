@@ -263,6 +263,9 @@ public class CameraSettings {
     public static final String KEY_TS_MAKEUP_LEVEL         = "pref_camera_tsmakeup_level_key";
     public static final String KEY_TS_MAKEUP_LEVEL_WHITEN  = "pref_camera_tsmakeup_whiten";
     public static final String KEY_TS_MAKEUP_LEVEL_CLEAN   = "pref_camera_tsmakeup_clean";
+   
+    // Sony stuff
+    public static final String KEY_SONY_VS                 = "pref_sony_vs";
 
     public static final String KEY_REFOCUS_PROMPT = "refocus-prompt";
 
@@ -972,6 +975,7 @@ public class CameraSettings {
 
     private void initPreference(PreferenceGroup group) {
         ListPreference videoQuality = group.findPreference(KEY_VIDEO_QUALITY);
+        ListPreference sony_vs_level = group.findPreference(KEY_SONY_VS);
         ListPreference timeLapseInterval = group.findPreference(KEY_VIDEO_TIME_LAPSE_FRAME_INTERVAL);
         ListPreference pictureSize = group.findPreference(KEY_PICTURE_SIZE);
         ListPreference whiteBalance =  group.findPreference(KEY_WHITE_BALANCE);

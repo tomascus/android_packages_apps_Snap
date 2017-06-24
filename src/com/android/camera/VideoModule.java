@@ -2850,6 +2850,11 @@ public class VideoModule extends BaseModule<VideoUI> implements
 
             forceFlashOffIfSupported(!mPreviewFocused);
 
+	    String sony_vs_level = mPreferences.getString(
+                     CameraSettings.KEY_SONY_VS,
+ 	       	     mActivity.getString(R.string.pref_sony_vs_entry_default));
+            mParameters.set("sony-vs", sony_vs_level );
+
             // Set exposure compensation
             int value = CameraSettings.readExposure(mPreferences);
             int max = mParameters.getMaxExposureCompensation();
