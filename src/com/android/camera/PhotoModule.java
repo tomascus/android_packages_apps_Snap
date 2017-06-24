@@ -3282,6 +3282,13 @@ public class PhotoModule extends BaseModule<PhotoUI> implements
                 mActivity.getString(R.string.pref_sony_ae_mode_default));
 	mParameters.set("sony-ae-mode", sony_aemode);
 
+	// Set Sony shutter speed
+	String sony_shutterspeed_s = mPreferences.getString(
+                CameraSettings.KEY_SONY_SHUTTER_SPEED,
+                mActivity.getString(R.string.pref_sony_shutter_speed_entry_default));
+	int sony_shutterspeed = Integer.parseInt(sony_shutterspeed_s);
+	mParameters.set("sony-shutter-speed", sony_shutterspeed);
+
         //Set Saturation
         String saturationStr = getSaturationSafe();
         if (saturationStr != null) {
