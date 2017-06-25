@@ -158,21 +158,20 @@
     <string name="pref_sony_ae_mode_entry_manual">Manual</string>
     <string name="pref_sony_ae_mode_default">auto</string>
 
-    <!-- TODO: Change to more human readable values (e.g 1/500, 1/250), what do these bloody numbers mean?? -->
-    <string name="pref_sony_shutter_speed_title">Sony Shutter Speed</string>
+    <string name="pref_sony_shutter_speed_title">Shutter Speed</string>
     <string name="pref_sony_shutter_speed_entry_0">1 sec</string>
-    <string name="pref_sony_shutter_speed_entry_1">1/2th sec</string>
-    <string name="pref_sony_shutter_speed_entry_2">1/4th sec</string>
-    <string name="pref_sony_shutter_speed_entry_3">1/8th sec</string>
-    <string name="pref_sony_shutter_speed_entry_4">1/16th sec</string>
-    <string name="pref_sony_shutter_speed_entry_5">1/32th sec</string>
-    <string name="pref_sony_shutter_speed_entry_6">1/50th sec</string>
-    <string name="pref_sony_shutter_speed_entry_7">1/100th sec</string>
-    <string name="pref_sony_shutter_speed_entry_8">8</string>
-    <string name="pref_sony_shutter_speed_entry_9">9</string>
-    <string name="pref_sony_shutter_speed_entry_10">10</string>
-    <string name="pref_sony_shutter_speed_entry_11">11</string>
-    <string name="pref_sony_shutter_speed_entry_12">12</string>
+    <string name="pref_sony_shutter_speed_entry_1">1/2 sec</string>
+    <string name="pref_sony_shutter_speed_entry_2">1/4 sec</string>
+    <string name="pref_sony_shutter_speed_entry_3">1/8 sec</string>
+    <string name="pref_sony_shutter_speed_entry_4">1/16 sec</string>
+    <string name="pref_sony_shutter_speed_entry_5">1/32 sec</string>
+    <string name="pref_sony_shutter_speed_entry_6">1/100 sec</string>
+    <string name="pref_sony_shutter_speed_entry_7">1/125 sec</string>
+    <string name="pref_sony_shutter_speed_entry_8">1/250 sec</string>
+    <string name="pref_sony_shutter_speed_entry_9">1/500 sec</string>
+    <string name="pref_sony_shutter_speed_entry_10">1/1000 sec</string>
+    <string name="pref_sony_shutter_speed_entry_11">1/2000 sec</string>
+    <string name="pref_sony_shutter_speed_entry_12">1/5000 sec</string>
     <string name="pref_sony_shutter_speed_entry_default">7</string>
 
     <string name="pref_sony_metering_mode_entry_title">Sony metering mode</string>
