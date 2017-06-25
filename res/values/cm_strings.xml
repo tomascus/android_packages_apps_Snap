@@ -174,10 +174,10 @@
     <string name="pref_sony_shutter_speed_entry_12">1/5000 sec</string>
     <string name="pref_sony_shutter_speed_entry_default">7</string>
 
-    <string name="pref_sony_metering_mode_entry_title">Sony metering mode</string>
+    <string name="pref_sony_metering_mode_entry_title">Metering Mode</string>
+    <string name="pref_sony_metering_mode_entry_multi">Average</string>
+    <string name="pref_sony_metering_mode_entry_center_weighted">Center</string>
+    <string name="pref_sony_metering_mode_entry_default">Face</string>
+    <string name="pref_sony_metering_mode_entry_spot">Spot</string>
     <string name="pref_sony_metering_mode_entry_face">face</string>
-    <string name="pref_sony_metering_mode_entry_center_weighted">center weighted</string>
-    <string name="pref_sony_metering_mode_entry_spot">spot</string>
-    <string name="pref_sony_metering_mode_entry_multi">multi</string>
-    <string name="pref_sony_metering_mode_entry_default">face</string>
 </resources>
