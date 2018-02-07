@@ -325,9 +325,6 @@
     <string name="pref_camera_shuttersound_entry_enable">Enabled</string>
     <string name="pref_camera_shuttersound_entry_disable">Disabled</string>
 
-    <!-- Default mce setting. Do not translate. -->
-    <string name="pref_camera_mce_default">enable</string>
-
     <!-- The message is shown in toast when the app encounters an unsupported selection for HFR/HSR mode -->
     <string name="error_app_unsupported_hfr_selection">High-framerate recording is not supported when using Stabilization/Time lapse/HDR.</string>
 
@@ -818,20 +815,6 @@
     <string name="pref_hdr_mode_value_sensor" translatable="false">hdr-mode-sensor</string>
     <string name="pref_hdr_mode_value_multi_frame" translatable="false">hdr-mode-multiframe</string>
 
-    <!-- Settings screen, Selectable HDR need 1x frame default value -->
-    <string name="pref_camera_hdr_need_1x_default" translatable="false">@string/pref_hdr_need_1x_value_true</string>
-
-    <!-- Settings screen, Selectable HDR need 1x frame title -->
-    <string name="pref_camera_hdr_need_1x_title">HDR needs 1x frame</string>
-
-    <!-- Settings screen, Selectable HDR need 1x frame radio button choices -->
-    <string name="pref_camera_hdr_need_1x_entry_false" translatable="false">@string/setting_off</string>
-    <string name="pref_camera_hdr_need_1x_entry_true" translatable="false">@string/setting_on</string>
-
-    <!-- HDR need 1x frame entry values. Do not translate. -->
-    <string name="pref_hdr_need_1x_value_false" translatable="false">false</string>
-    <string name="pref_hdr_need_1x_value_true" translatable="false">true</string>
-
     <!--Default video rotation setting-->
     <string name="pref_camera_video_rotation_default" translatable="false">0</string>
 
@@ -910,6 +893,8 @@
 
     <string name="pref_camera2_mono_only_title">Mono only</string>
     <string name="pref_camera2_mono_only_default" translatable="false">off</string>
+    <string name="pref_camera2_mono_only_entry_on">On</string>
+    <string name="pref_camera2_mono_only_entry_off">Off</string>
 
     <string name="pref_camera2_mono_preview_title">Mono preview</string>
     <string name="pref_camera2_mono_preview_entry_on">On</string>
@@ -943,6 +928,8 @@
     <string name="pref_camera2_flashmode_default" translatable="false">2</string>
 
     <string name="pref_camera2_makeup_title">Makeup</string>
+    <string name="pref_camera2_makeup_entry_on">On</string>
+    <string name="pref_camera2_makeup_entry_off">Off</string>
 
     <string name="pref_camera2_noise_reduction_default" translatable="false">off</string>
     <string name="pref_camera2_noise_reduction_title">Noise reduction</string>
@@ -963,7 +950,11 @@
 
     <string name="pref_camera2_videosnap_entry_enable">Enable</string>
     <string name="pref_camera2_videosnap_entry_disable">Disable</string>
+
     <string name="pref_camera2_trackingfocus_title">Tracking focus</string>
+    <string name="pref_camera2_trackingfocus_entry_on">On</string>
+    <string name="pref_camera2_trackingfocus_entry_off">Off</string>
+
     <string name="pref_camera_scenemode_entry_bestpicture">Best picture</string>
     <string name="bestpicture_done">DONE</string>
     <string name="bestpicture_at_least_one_picture">At least one picture has to be chosen.</string>
@@ -975,7 +966,7 @@
     <string name="pref_camera2_shutter_sound_entry_on">On</string>
     <string name="pref_camera2_shutter_sound_entry_off">Off</string>
     <string name="pref_camera2_shutter_sound_title">Shutter sound</string>
-    
+
     <!-- Sony stuff -->
     <string name="pref_sony_vs_title" translatable="false">Sony Video Stabilisation</string>
     <string name="pref_sony_vs_entry_off" translatable="false">Off</string>
@@ -987,4 +978,8 @@
     <string name="pref_sony_hdr_video_entry_off">Off</string>
     <string name="pref_sony_hdr_video_entry_on">On</string>
     <string name="pref_sony_hdr_video_default">off</string>
+
+    <string name="pref_camera2_initial_camera_entry_bayer">Bayer</string>
+    <string name="pref_camera2_initial_camera_entry_mono">Mono</string>
+    <string name="pref_camera2_initial_camera_entry_front">Front</string>
 </resources>
